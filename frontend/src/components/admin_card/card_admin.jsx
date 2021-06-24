@@ -4,9 +4,9 @@ import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 
 import avatar from "../images/img_avatar.png";
-import "./style.css";
+import "./admin.css";
 
-function Card_employee() {
+function Admin_card() {
   const [Employees, setEmployee] = useState([]);
 
   const getData = () => {
@@ -50,4 +50,4 @@ function Card_employee() {
   );
 }
 
-export default Card_employee;
+export default Admin_card;

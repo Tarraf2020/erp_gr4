@@ -1,0 +1,75 @@
+.main {
+    margin-left: 265px;
+  }
+  .main > .main_flex > h1 {
+    margin: 0;
+    padding: 25px 40px 17px 40px;
+    color: #0073a5;
+    width: 50%;
+  }
+  .main_flex {
+    display: flex;
+  }
+ 
+  
+ 
+  
+  body {
+    background-color: #eaeaea;
+  }
+  
+  .flex_cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 180px;
+    margin: 15px;
+    text-align: center;
+    font-family: arial;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+ 
+  
+  .card:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .card_emp {
+    /* border-radius: 50%; */
+  
+    position: relative;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  /* https://www.webfx.com/blog/web-design/circular-images-css/ */
+  .card_img {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+  }
+  
+  .text_card {
+    font-size: 14px;
+  }
+  .card {
+    text-decoration: none;
+  }
+  
+  .card > h3 {
+    margin: 6px;
+  }
+  
+  .card > p {
+    margin: 8px;
+  }
+  

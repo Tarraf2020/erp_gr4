@@ -8,35 +8,27 @@ function Nav() {
   return (
     <div className="nav">
       <ul>
-        <img src={logo} alt="logo img" height={150} width={250} />
+        <img src={logo} alt="logo img"  />
         <li>
-            <i className="fas fa-address-card icon"></i>
-            <Link to="/employees">Admins</Link>
+          <Link to="/admins">Admins</Link>
         </li>
         <li>
-            <i className="fas fa-home icon"></i>
-            <Link to="/employees">Employees</Link>
+          <Link to="/employees">Employees</Link>
         </li>
         <li>
-            <i className="fas fa-home icon"></i>
-            <Link to="/employees">Teams</Link>
+          <Link to="/employees">Teams</Link>
         </li>
         <li>
-            <i className="fas fa-home icon"></i>
-            <Link to="/employees">Projects</Link>
+          <Link to="/employees">Projects</Link>
+        </li>
+        <li id="down">
+          <Link to="/employees">911</Link>
         </li>
         <li>
-            <i className="fas fa-lock icon  "></i>
-            <Link to="/employees">911</Link>
-        </li>
-        <li>
-            <i className="fas fa-lock icon  "></i>
-            <Link to="/employees">Log Out</Link>
+          <Link to="/employees">Log Out</Link>
         </li>
       </ul>
-       
     </div>
-
   );
 }
 
